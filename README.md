@@ -80,7 +80,7 @@ In this section we upload the sample MNIST images to Cloud Object Storage
        - Click **Create and run**
        - When the training run has completed goto the section **Deploy Model**
        
-  #### Deploy Model
+#### Deploy Model
   
    - Click **Actions** on the right of the table for the completed training run **Single Convolution layer on MNIST**
    - Click **Save model**
@@ -96,14 +96,14 @@ In this section we upload the sample MNIST images to Cloud Object Storage
             - Click **Test**
             - Click **Provide Input Data as Json**
             
-   #### Test deployment
+#### Test deployment
    
-    - Open a new Watson Studio browser tab
-    - Open the notebook **Create Test Image**
-    - Run all cells
-    - Copy the output: **{"values": [...]}**
-    - Go back the *Deployment Test* tab
+   - Open a new Watson Studio browser tab
+   - Open the notebook **Create Test Image**
+   - Run all cells
+   - Copy the output: **{"values": [...]}**
+   - Go back the *Deployment Test* tab
        - In the box *Enter input data* paste the copied output
        - Click **Predict*
        
-   Note the output probabilities.
+  Note the output probabilities.
