@@ -98,4 +98,12 @@ In this section we upload the sample MNIST images to Cloud Object Storage
             
    #### Test deployment
    
-    - TODO
+    - Open a new Watson Studio browser tab
+    - Open the notebook **Create Test Image**
+    - Run all cells
+    - Copy the output `{"values": [...]}`
+    - Go back the *Deployment Test* tab
+       - In the box *Enter input data* paste the copied output
+       - Click **Predict*
+       
+   Note the output probabilities.
