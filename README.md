@@ -10,7 +10,7 @@ In this demo you will:
 
 ### Pre-requisites
 
-The following IBM Service Instances are required:
+The following IBM Service Instances are required (LITE services are ok):
 
 - Watson Studio
 - Watson Machine Learning
