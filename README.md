@@ -55,7 +55,7 @@ In this section we upload the sample MNIST images to Cloud Object Storage
  - Right click the **Image Data** node
  - Select **Open**
     - Under *Data Connections* select **COS Images**
-    - Under *Buckets* select <<project-id>>-training
+    - Under *Buckets* select [[project-id]]-training
     - Under *Train data file* select **mnist-tf-train.pkl** 
     - Under *Test data file* select **mnist-tf-test.pkl**
     - Under *Validation data file* select **mnist-tf-valid.pkl**
