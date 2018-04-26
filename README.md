@@ -82,4 +82,20 @@ In this section we upload the sample MNIST images to Cloud Object Storage
        
   #### Deploy Model
   
-   - TODO
+   - Click **Actions** on the right of the table for the completed training run **Single Convolution layer on MNIST**
+   - Click **Save model**
+   - Provide a model name: **MNIST Model**
+   - Click **Save**
+      - In the message *Model successfully saved. View model details here.* click **here**
+      - Click **Deployments**
+      - Click **Add Deployment**
+         - Provide name **MNIST Deployment**
+         - Click **Save**
+            - When status is: **DEPLOY_SUCCESS**
+            - Select **MNIST Service**
+            - Click **Test**
+            - Click **Provide Input Data as Json**
+            
+   #### Test deployment
+   
+    - TODO
