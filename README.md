@@ -63,3 +63,17 @@ In this section we upload the sample MNIST images to Cloud Object Storage
  - On the toolbar, click: **Publish Training Definition**
     - Accept the defaults
     - Click **Publish**
+ - In the pop up message click the link **train it in an experiment**
+    - Experiment Name: **MNIST Experiment**
+    - Under the heading *Cloud Object Storage bucket for storing training source and results files*
+       - Click **select**
+       - On *Select Cloud Object Storage connection* select **COS Images**
+       - Select existing bucket for training data - use training bucket name output from notebook: **Prepare MNIST Data**
+       - Select existing bucket for results data - use results bucket name output from notebook: **Prepare MNIST Data**
+       - Click **Select**
+    - Click **Add training definition**
+       - Select **Existing training definition**
+       - Under *Existing training definitions* select the training definition exported from the neural network editor
+       - Under *Compute plan* select **1/2 x NVIDIA® Tesla® K80 (1 GPU)**
+       - Under *Hyperparameter optimization method* select **none**
+       - Click **Select**
