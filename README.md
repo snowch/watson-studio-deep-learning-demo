@@ -45,7 +45,7 @@ In this section we upload the sample MNIST images to Cloud Object Storage
  - Run all cells in the notebook
  - Make a note of the COS bucket names printed at the end
 
-#### Create Neural Network
+#### Create Neural Network and Training Definition
 
  - Navigate to the Watson Studio Project **Assets** page
  - Create a new Modeler flow
@@ -77,3 +77,9 @@ In this section we upload the sample MNIST images to Cloud Object Storage
        - Under *Compute plan* select **1/2 x NVIDIA® Tesla® K80 (1 GPU)**
        - Under *Hyperparameter optimization method* select **none**
        - Click **Select**
+       - Click **Create and run**
+       - When the training run has completed goto the section **Deploy Model**
+       
+  #### Deploy Model
+  
+   - TODO
