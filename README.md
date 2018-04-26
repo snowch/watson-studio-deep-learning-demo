@@ -31,7 +31,7 @@ This section lists the required Watson Studio setup steps.
    - Navigate to the Watson Studio Project **Settings** page 
    - Create a Project Token with **Editor** Role
  - Import notebooks
-   - Import the notebooks [Prepare MNIST Data.ipynb](./Prepare MNIST Data.ipynb) and [Create Test Image.ipynb](./Create Test Image.ipynb)
+   - Import the notebooks **Prepare MNIST Data.ipynb** and **Create Test Image.ipynb**
    - You can use a Python Anaconda Environment (any size will do)
 
 #### Upload MNIST Images
