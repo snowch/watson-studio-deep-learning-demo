@@ -15,6 +15,7 @@ The following IBM Service Instances are required (LITE services are ok):
 - Watson Studio
 - Watson Machine Learning
 - Cloud Object Storage (COS)
+   - Create S3 compatible credentials: https://console.bluemix.net/docs/services/cloud-object-storage/iam/service-credentials.html#service-credentials
 
 Ensure that all of the service instances are all in the same IBM Cloud Resource Group, Organisation and Space.
 
